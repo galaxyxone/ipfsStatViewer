@@ -1,0 +1,17 @@
+ADDING IPFS INTO IPFS-DESKTOP AND IPFS WEB-APP
+
+To start- adapt a grafana API to display a bar graph displaying what types of data are stored on a users node by using the file_type and file_size as the sources of data
+
+
+  DATA REQUIRED: FilesList/getTitle
+  
+  
+look at filesList.js
+
+
+  const getTitle = (filesPathInfo, t) => {
+  const parts = []
+
+    if (filesPathInfo) {
+      parts.push(filesPathInfo.realPath)
+    }
