@@ -3,6 +3,8 @@ Start with a simple react web app/plugin that a user can install within their br
   then stat pulling data from users ipfs node via http api requests
   
   then display users ipfs data on grafana or something similar-
+  
+## Building an extension from scratch
 
 To start- adapt a grafana API to display a bar graph displaying what types of data are stored on a users node by using the file_type and file_size as the sources of data
 
