@@ -8,6 +8,8 @@ Start with a simple react web app/plugin that a user can install within their br
 
 To start- adapt a grafana API to display a bar graph displaying what types of data are stored on a users node by using the file_type and file_size as the sources of data
 
+This first https://www.youtube.com/watch?v=2LhoCfjm8R4
+
 https://thenishchalraj.medium.com/dynamically-embed-grafana-dashboards-in-a-react-component-483b9ecd1dcd
 
 
