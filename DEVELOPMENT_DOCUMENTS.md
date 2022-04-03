@@ -1,4 +1,4 @@
-Start with a simple react web page that a user can install within their browser
+Start with a simple react web app/plugin that a user can install within their browser
 
   then stat pulling data from users ipfs node via http api requests
   
