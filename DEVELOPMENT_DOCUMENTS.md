@@ -26,3 +26,8 @@ look at filesList.js
     if (filesPathInfo) {
       parts.push(filesPathInfo.realPath)
     }
+
+
+Zoomable Circle Packing- D3 Library
+
+https://observablehq.com/@d3/zoomable-circle-packing
