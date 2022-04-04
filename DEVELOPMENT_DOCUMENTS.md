@@ -35,3 +35,7 @@ https://observablehq.com/@d3/zoomable-circle-packing
 Pie Chart- D3 Library
 
 https://observablehq.com/@d3/pie-chart
+
+Treemap
+
+https://observablehq.com/@d3/treemap
