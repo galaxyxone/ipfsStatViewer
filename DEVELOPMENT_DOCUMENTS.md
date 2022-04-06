@@ -50,4 +50,9 @@ You must configure your IPFS API at http://127.0.0.1:5001 to allow cross-origin 
 Similarly if you want to try out pre-release versions at https://dev.webui.ipfs.io you need to add that as an allowed domain too.
 
 
+-------------------------------------------------------------------
+
+### call ipfs data with ipfs api in react
+
+
 
