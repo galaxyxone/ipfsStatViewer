@@ -56,4 +56,11 @@ Similarly if you want to try out pre-release versions at https://dev.webui.ipfs.
 
 Does IPFS use express to pass API 
 
+-
+
+-
+
+-
+
+Takeout hardcoded info and add IPFS API
 
