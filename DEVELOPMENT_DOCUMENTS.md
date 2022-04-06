@@ -58,7 +58,7 @@ Does IPFS use express to pass API
 
 -
 
--
+- add update statistic variable to update Treemap visualization 
 
 -
 
