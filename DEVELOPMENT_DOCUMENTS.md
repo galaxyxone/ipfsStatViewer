@@ -39,3 +39,15 @@ https://observablehq.com/@d3/pie-chart
 Treemap
 
 https://observablehq.com/@d3/treemap
+
+use the same IPFS CORS api that is used on the ipfs-webui
+https://github.com/ipfs/ipfs-webui
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
+Configure IPFS API CORS headers
+You must configure your IPFS API at http://127.0.0.1:5001 to allow cross-origin (CORS) requests from your dev server at http://localhost:3000
+
+Similarly if you want to try out pre-release versions at https://dev.webui.ipfs.io you need to add that as an allowed domain too.
+
+
+
