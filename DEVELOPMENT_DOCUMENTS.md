@@ -40,6 +40,8 @@ Treemap
 
 https://observablehq.com/@d3/treemap
 
+If the data needs to be JSON, then use this https://observablehq.com/@d3/json-treemap
+
 use the same IPFS CORS api that is used on the ipfs-webui
 https://github.com/ipfs/ipfs-webui
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
