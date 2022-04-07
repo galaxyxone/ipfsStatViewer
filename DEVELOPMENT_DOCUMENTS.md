@@ -60,7 +60,9 @@ Does IPFS use express to pass API
 
 - add update statistic variable to update Treemap visualization 
 
--
+- The IPFS API server is listening on port 5001. This is what i need to connect to- 
 
 Takeout hardcoded info and add IPFS API
+
+https://medium.com/swlh/ipfs-nodejs-app-8e35f504d440
 
