@@ -1,6 +1,6 @@
 ### 1. Start with a simple react web app/plugin that a user can install within their browser
 
- - Stats pulling data from users IPFS node via http api request 
+ - Stats(filename, filesize) are requested from users IPFS node via http api request 
   
   - D3.js uses http request to build Treemap 
   
@@ -52,9 +52,8 @@ Similarly if you want to try out pre-release versions at https://dev.webui.ipfs.
 
 -------------------------------------------------------------------
 
-### call ipfs data with ipfs api in react - then load it into a chrome extension
+### call ipfs data with ipfs api in react - pass it to D3 to generate treemap
 
-Does IPFS use express to pass API 
 
 - const ipfsClient = require('ipfs-http-client');
 - const ipfs = ipfsClient('http://localhost:5001');
@@ -63,7 +62,7 @@ Does IPFS use express to pass API
 
 - The IPFS API server is listening on port 5001. This is what i need to connect to- 
 
-Takeout hardcoded info and add IPFS API
+Takeout hardcoded D3 data and add IPFS API
 
-https://medium.com/swlh/ipfs-nodejs-app-8e35f504d440
+   
 
