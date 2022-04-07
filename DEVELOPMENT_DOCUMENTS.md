@@ -1,8 +1,8 @@
-Start with a simple react web app/plugin that a user can install within their browser
+### 1. Start with a simple react web app/plugin that a user can install within their browser
 
-  then stat pulling data from users ipfs node via http api requests
+ ( Stats pulling data from users IPFS node via http api request )
   
-  then display users ipfs data on grafana or something similar-
+  ( D3.js uses http request to build Treemap )
   
 ## Building an extension from scratch
 
