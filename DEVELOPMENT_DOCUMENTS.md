@@ -56,7 +56,8 @@ Similarly if you want to try out pre-release versions at https://dev.webui.ipfs.
 
 Does IPFS use express to pass API 
 
--
+- const ipfsClient = require('ipfs-http-client');
+- const ipfs = ipfsClient('http://localhost:5001');
 
 - add update statistic variable to update Treemap visualization 
 
