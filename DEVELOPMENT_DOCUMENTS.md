@@ -1,8 +1,8 @@
 ### 1. Start with a simple react web app/plugin that a user can install within their browser
 
- ( Stats pulling data from users IPFS node via http api request )
+ - Stats pulling data from users IPFS node via http api request 
   
-  ( D3.js uses http request to build Treemap )
+  - D3.js uses http request to build Treemap 
   
 ## Building an extension from scratch
 
