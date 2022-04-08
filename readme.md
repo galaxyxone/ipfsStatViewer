@@ -7,7 +7,6 @@ IPFS Statistical Data Viewer is a tool that visualizes your IPFS Node. D3 is use
 
 - Stats(filename, filesize) are requested from users IPFS node via http api request
 - D3.js uses http request to build Treemap
-- ✨Magic ✨
 
 ## Features
 - Static data visualization command to generate a graphic that is displayed to user
