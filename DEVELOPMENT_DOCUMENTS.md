@@ -49,5 +49,14 @@ You must configure your IPFS API at http://127.0.0.1:5001 to allow cross-origin 
 
 Similarly if you want to try out pre-release versions at https://dev.webui.ipfs.io you need to add that as an allowed domain too.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+export CIDS to a newline delimited file.
+  - use the following command "ipfs pin ls -q > pinlist.txt
+
+Then use D3.js to look at the pinlist and create a map from that-
+  - make sure that the filename can come as well maybe? then maybe file size too hopefully
+  - 
+
 
 
