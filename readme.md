@@ -26,8 +26,6 @@ We are building a web-app to save and monitor your data via IPFS. Our program sc
 
 ## Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
-
 Install the dependencies and devDependencies and start the server.
 
 ```sh
