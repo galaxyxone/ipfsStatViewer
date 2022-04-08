@@ -1,10 +1,20 @@
 # Statistical Data Viewer
 ## _A simple chrome extension for users to visualize the data stored on their local IPFS node_
 
+<<<<<<< HEAD
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 
 IPFS Statistical Data Viewer is a tool that visualizes your IPFS Node. D3 is used to display what types of data are stored on a users node by using the file_type and file_size as the sources of data
 
+=======
+# Statistical Data Viewer
+## _A simple chrome extension for users to visualize the data stored on their local IPFS node_
+
+[![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
+
+IPFS Statistical Data Viewer is a tool that visualizes your IPFS Node. D3 is used to display what types of data are stored on a users node by using the file_type and file_size as the sources of data
+
+>>>>>>> f12ddc80e35869651322b8ffd7c1646310d4fed0
 - Stats(filename, filesize) are requested from users IPFS node via http api request
 - D3.js uses http request to build Treemap
 - ✨Magic ✨
@@ -48,6 +58,8 @@ MIT
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+<<<<<<< HEAD
+=======
 
    [ipfs]: <https://github.com/ipfs>
    [d3]: <https://github.com/d3/d3>
@@ -56,5 +68,23 @@ MIT
    [jQuery]: <http://jquery.com>
    [express]: <http://expressjs.com>
    [AngularJS]: <http://angularjs.org>
+
+
+
+Project were building off of: http://galerielestudio.com
+Project Github: https://github.com/galaxyxone/glsx_live2.2
+Company Github: https://github.com/galaxyone
+>>>>>>> f12ddc80e35869651322b8ffd7c1646310d4fed0
+
+   [ipfs]: <https://github.com/ipfs>
+   [d3]: <https://github.com/d3/d3>
+   [markdown-it]: <https://github.com/markdown-it/markdown-it>
+   [node.js]: <http://nodejs.org>
+   [jQuery]: <http://jquery.com>
+   [express]: <http://expressjs.com>
+   [AngularJS]: <http://angularjs.org>
+
+![Screen Shot 2022-04-07 at 6 00 34 PM](https://user-images.githubusercontent.com/30084404/162333144-4d65b53f-0df5-49ec-bc11-40ea0bf78bc8.png)
+
 
 
