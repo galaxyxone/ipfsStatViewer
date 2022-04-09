@@ -56,7 +56,15 @@ export CIDS to a newline delimited file.
 
 Then use D3.js to look at the pinlist and create a map from that-
   - make sure that the filename can come as well maybe? then maybe file size too hopefully
-  - 
+ 
+ 
+ To use this chart outside of Observable, go to the @d3/treemap notebook, then copy-paste the entire function Treemap including the copyright notice into your application. You’ll also need to install (e.g., yarn add d3) and import (e.g., import * as d3 from "d3") D3; see D3’s README for details. To render a chart, pass Treemap an array of data and any desired options; it will return an SVG element that you can insert into the DOM.
+ 
+import {Treemap} from "@d3/treemap"
+
+
+
+
 
 
 
