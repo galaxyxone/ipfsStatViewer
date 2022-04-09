@@ -62,7 +62,11 @@ Then use D3.js to look at the pinlist and create a map from that-
  
 import {Treemap} from "@d3/treemap"
 
+Then call Treemap(data, options) as shown above.
 
+To customize this chart, click the  Fork button at the top of the page to create your own copy of this notebook and save your changes. To run a cell, click the play button  in the top-right corner of the editor, or use Command-S (⌘S) or Shift-Enter (⇧↩).
+
+If you have any questions or suggestions, please sign-in to leave a comment. Click the cell menu  to the left of any cell, then click  Add comment.
 
 
 
