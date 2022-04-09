@@ -49,5 +49,26 @@ You must configure your IPFS API at http://127.0.0.1:5001 to allow cross-origin 
 
 Similarly if you want to try out pre-release versions at https://dev.webui.ipfs.io you need to add that as an allowed domain too.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+export CIDS to a newline delimited file.
+  - use the following command "ipfs pin ls -q > pinlist.txt
+
+Then use D3.js to look at the pinlist and create a map from that-
+  - make sure that the filename can come as well maybe? then maybe file size too hopefully
+ 
+ 
+ To use this chart outside of Observable, go to the @d3/treemap notebook, then copy-paste the entire function Treemap including the copyright notice into your application. You’ll also need to install (e.g., yarn add d3) and import (e.g., import * as d3 from "d3") D3; see D3’s README for details. To render a chart, pass Treemap an array of data and any desired options; it will return an SVG element that you can insert into the DOM.
+ 
+import {Treemap} from "@d3/treemap"
+
+Then call Treemap(data, options) as shown above.
+
+To customize this chart, click the  Fork button at the top of the page to create your own copy of this notebook and save your changes. To run a cell, click the play button  in the top-right corner of the editor, or use Command-S (⌘S) or Shift-Enter (⇧↩).
+
+If you have any questions or suggestions, please sign-in to leave a comment. Click the cell menu  to the left of any cell, then click  Add comment.
+
+
+
 
 
