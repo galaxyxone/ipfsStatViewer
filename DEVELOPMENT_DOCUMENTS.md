@@ -70,5 +70,10 @@ If you have any questions or suggestions, please sign-in to leave a comment. Cli
 
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The question is do you poll the IPFS network after the users pinlist is returned to the app or do you try and get the data locally from the users node?
+
+    Definately start with getting it locally but then move on to polling the IPFS cids to provide metrics about what is saved on IPFS- also this helps redundancy in keeping things pinned by multiple nodes in the network     
 
 
