@@ -12,7 +12,7 @@ IPFS Statistical Data Viewer is a Chrome Extension that visualizes your IPFS Nod
 
 
 ## Features
-- Static data visualization command to generate a graphic that is displayed to user
+- Static data visualization command to generate a graphic that is displayed to user(extension/react pulls pinlist from user via http ipfs api)
 - FUTURE: Zoomable animations using D#
 - FUTURE: Canvas visualizations instead of SVG
 
