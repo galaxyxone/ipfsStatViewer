@@ -1,5 +1,8 @@
 # Statistical Data Viewer
+# This is NOT working right now-
 ## _A simple chrome extension for users to visualize the data stored on their local IPFS node_
+
+
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 
@@ -28,6 +31,12 @@ We are building a web-app to save and monitor your data via IPFS. Our program sc
 - [markdown-it] - Markdown parser done right. Fast and easy to extend.
 - [node.js] - evented I/O for the backend
 - [Express] - fast node.js network app framework [@tjholowaychuk]
+
+## Goals
+
+- Goal Treemap with Interactivity
+![Screen Shot 2022-04-07 at 6 00 34 PM](https://user-images.githubusercontent.com/30084404/162333144-4d65b53f-0df5-49ec-bc11-40ea0bf78bc8.png)
+
 
 
 ## Installation
@@ -60,9 +69,6 @@ MIT
    [express]: <http://expressjs.com>
    [AngularJS]: <http://angularjs.org>
 
-
-goal treemap with interactivity
-![Screen Shot 2022-04-07 at 6 00 34 PM](https://user-images.githubusercontent.com/30084404/162333144-4d65b53f-0df5-49ec-bc11-40ea0bf78bc8.png)
 
 
 
