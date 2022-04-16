@@ -5,8 +5,11 @@
 
 IPFS Statistical Data Viewer is a Chrome Extension that visualizes your IPFS Node with D3.js using the file_type and file_size as the sources of data
 
-- Stats(filename, filesize) are requested from users IPFS node via http api request
-- D3.js uses http request to build Treemap that looks like this
+- Stats(filename, filesize) are requested from users IPFS node via http api request- https://docs.ipfs.io/reference/http/api/
+- use this sample HTML code to generate HTML visualization using D3 and render it in chrome extension https://github.com/noryev/treemap_html
+- Finished Chrome extension looks like this- 
+<img width="1675" alt="Screen Shot 2022-04-14 at 10 01 02 PM" src="https://user-images.githubusercontent.com/30084404/163511354-2c178600-c9fd-4775-94c4-d9e9dfe33a45.png">
+
 ![Screen Shot 2022-04-07 at 6 00 34 PM](https://user-images.githubusercontent.com/30084404/162333144-4d65b53f-0df5-49ec-bc11-40ea0bf78bc8.png)
 
 
