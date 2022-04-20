@@ -8,10 +8,7 @@
 
 - A pluggable declarative TreeMapGroup component for React, which utilizes D3 for the graph. (File size correlated to box size) (Color corresponds with name of file) (.png is color x, .pdf is color y)
   
-- Then stat pulling data from users ipfs node via http api requests
-  
-- Then display users ipfs data on grafana or something similar-
-
+- Plug everything into React-Chrome Extension- Cross your fingers it all works together once its built!
 --------------------------------------------------------------------------------------------------------------------------------------------------------
   
 ## Building an extension from scratch
