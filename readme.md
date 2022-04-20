@@ -6,6 +6,8 @@
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 
+<img src="{https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB}" />
+
 IPFS Statistical Data Viewer is a Chrome Extension that visualizes your IPFS Node with D3.js using the file_type and file_size as the sources of data
 
 - Stats(filename, filesize) are requested from users IPFS node via http api request- https://docs.ipfs.io/reference/http/api/
@@ -32,9 +34,9 @@ We are building a web-app to save and monitor your data via IPFS. Our program sc
 - [node.js] - evented I/O for the backend
 - [Express] - fast node.js network app framework [@tjholowaychuk]
 
-## Goals
+## Future Project Goals
 
-- Goal Treemap with Interactivity
+- Goal Treemap with Dynamic Interactivity(zoom into file/parent file boxes to see into child files
 ![Screen Shot 2022-04-07 at 6 00 34 PM](https://user-images.githubusercontent.com/30084404/162333144-4d65b53f-0df5-49ec-bc11-40ea0bf78bc8.png)
 
 
