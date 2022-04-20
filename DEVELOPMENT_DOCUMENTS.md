@@ -1,5 +1,8 @@
 # This repo is a collection of various notes and information dedicated to the development of IPFS-Stat-Viewer
-## Start with a simple React Chrome Extension that a user can install within their browser that monitors a users local IPFS node
+## Start with a simple React Chrome Extension that a user can install within their browser that monitors a users local IPFS Node.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+### Things being built right now 
 
 - A transformation function to map data to D3's Treemap graph API.
 
