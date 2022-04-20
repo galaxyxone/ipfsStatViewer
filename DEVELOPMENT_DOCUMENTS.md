@@ -3,9 +3,7 @@
 
 - A transformation function to map data to D3's Treemap graph API.
 
-- A pluggable declarative TreeMapGroup component for React, which utilizes D3 for the graph.
-
-- File size correlated to box size
+- A pluggable declarative TreeMapGroup component for React, which utilizes D3 for the graph. (File size correlated to box size)
 
 - Color corresponds with name of file (.png is color x, .pdf is color y)
   then stat pulling data from users ipfs node via http api requests
