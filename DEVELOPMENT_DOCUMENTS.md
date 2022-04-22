@@ -58,24 +58,12 @@ Similarly if you want to try out pre-release versions at https://dev.webui.ipfs.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-export CIDS to a newline delimited file.
-  - use the following command "ipfs pin ls -q > pinlist.txt
-
-Then use D3.js to look at the pinlist and create a map from that-
-  - make sure that the filename can come as well maybe? then maybe file size too hopefully
- 
- 
- To use this chart outside of Observable, go to the @d3/treemap notebook, then copy-paste the entire function Treemap including the copyright notice into your application. You’ll also need to install (e.g., yarn add d3) and import (e.g., import * as d3 from "d3") D3; see D3’s README for details. To render a chart, pass Treemap an array of data and any desired options; it will return an SVG element that you can insert into the DOM.
- 
-import {Treemap} from "@d3/treemap"
-
-Then call Treemap(data, options) as shown above.
-
-To customize this chart, click the  Fork button at the top of the page to create your own copy of this notebook and save your changes. To run a cell, click the play button  in the top-right corner of the editor, or use Command-S (⌘S) or Shift-Enter (⇧↩).
-
-If you have any questions or suggestions, please sign-in to leave a comment. Click the cell menu  to the left of any cell, then click  Add comment.
-
-
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+What is the best way to extract the file extensions of the data stored in a users IPFS node? 
+
+![Screen Shot 2022-04-22 at 1 21 42 AM](https://user-images.githubusercontent.com/30084404/164615565-8a90ebc7-e5c7-4466-baf6-807a29c1a8f9.png)
+![Screen Shot 2022-04-22 at 1 21 53 AM](https://user-images.githubusercontent.com/30084404/164615568-ef1bc88a-afab-4a46-a85b-67f2e07d0003.png)
+
 
