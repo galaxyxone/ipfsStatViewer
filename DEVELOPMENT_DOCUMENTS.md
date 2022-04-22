@@ -51,30 +51,9 @@ Similarly if you want to try out pre-release versions at https://dev.webui.ipfs.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-export CIDS to a newline delimited file.
-  - use the following command "ipfs pin ls -q > pinlist.txt
-
-Then use D3.js to look at the pinlist and create a map from that-
-  - make sure that the filename can come as well maybe? then maybe file size too hopefully
- 
- 
- To use this chart outside of Observable, go to the @d3/treemap notebook, then copy-paste the entire function Treemap including the copyright notice into your application. You’ll also need to install (e.g., yarn add d3) and import (e.g., import * as d3 from "d3") D3; see D3’s README for details. To render a chart, pass Treemap an array of data and any desired options; it will return an SVG element that you can insert into the DOM.
- 
-import {Treemap} from "@d3/treemap"
-
-Then call Treemap(data, options) as shown above.
-
-To customize this chart, click the  Fork button at the top of the page to create your own copy of this notebook and save your changes. To run a cell, click the play button  in the top-right corner of the editor, or use Command-S (⌘S) or Shift-Enter (⇧↩).
-
-If you have any questions or suggestions, please sign-in to leave a comment. Click the cell menu  to the left of any cell, then click  Add comment.
-
-
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-The question is do you poll the IPFS network after the users pinlist is returned to the app or do you try and get the data locally from the users node?
 
-    Definately start with getting it locally but then move on to polling the IPFS cids to provide metrics about what is saved on IPFS- also this helps redundancy in keeping things pinned by multiple nodes in the network     
+What is the best way to extract the file extensions of the data stored in a users IPFS node? 
 
 
-Work more with IPFS HTTP API pulling pin list from users ipfs node
