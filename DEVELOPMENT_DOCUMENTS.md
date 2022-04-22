@@ -56,4 +56,7 @@ Similarly if you want to try out pre-release versions at https://dev.webui.ipfs.
 
 What is the best way to extract the file extensions of the data stored in a users IPFS node? 
 
+![Screen Shot 2022-04-22 at 1 21 42 AM](https://user-images.githubusercontent.com/30084404/164615565-8a90ebc7-e5c7-4466-baf6-807a29c1a8f9.png)
+![Screen Shot 2022-04-22 at 1 21 53 AM](https://user-images.githubusercontent.com/30084404/164615568-ef1bc88a-afab-4a46-a85b-67f2e07d0003.png)
+
 
