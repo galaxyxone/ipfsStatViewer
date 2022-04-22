@@ -1,8 +1,15 @@
-Start with a simple react web app/plugin that a user can install within their browser
+# This repo is a collection of various notes and information dedicated to the development of IPFS-Stat-Viewer
+## Start with a simple React Chrome Extension that a user can install within their browser that monitors a users local IPFS Node.
 
-  then stat pulling data from users ipfs node via http api requests
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+### Things being built right now 
+
+- A transformation function to map data to D3's Treemap graph API.
+
+- A pluggable declarative TreeMapGroup component for React, which utilizes D3 for the graph. (File size correlated to box size) (Color corresponds with name of file) (.png is color x, .pdf is color y)
   
-  then display users ipfs data on grafana or something similar-
+- Plug everything into React-Chrome Extension- Cross your fingers it all works together once its built!
+--------------------------------------------------------------------------------------------------------------------------------------------------------
   
 ## Building an extension from scratch
 
