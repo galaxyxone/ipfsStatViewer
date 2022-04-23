@@ -21,52 +21,7 @@ import "./App.css"; // Don't forget to port this css file too, if you want the r
 /**
  * @type {IFPSResponse}
  */
-const mockIPFSResponse = {
-  Entries: [
-    {
-      Hash: "QmcAm5PngkrfB5Ajea5kKAWE5d6VSpKKTYaKZNULgAPXWv",
-      Name: "first.png",
-      Size: 768403,
-      Type: 0,
-    },
-    {
-      Hash: "QmcAm5PngkrfB5Ajea5kKAWE5d6VSpKKTYaKZNULgAPXWv",
-      Name: "second.jpeg",
-      Size: 1768403,
-      Type: 0,
-    },
-    {
-      Hash: "QmcAm5PngkrfB5Ajea5kKAWE5d6VSpKKTYaKZNULgAPXWv",
-      Name: "third.pdf",
-      Size: 1768403,
-      Type: 0,
-    },
-    {
-      Hash: "QmcAm5PngkrfB5Ajea5kKAWE5d6VSpKKTYaKZNULgAPXWv",
-      Name: "folder",
-      Size: 3768403,
-      Type: 0,
-    },
-    {
-      Hash: "QmcAm5PngkrfB5Ajea5kKAWE5d6VSpKKTYaKZNULgAPXWv",
-      Name: "folder2",
-      Size: 3768403,
-      Type: 0,
-    },
-    {
-      Hash: "QmcAm5PngkrfB5Ajea5kKAWE5d6VSpKKTYaKZNULgAPXWv",
-      Name: "file.jpeg",
-      Size: 3768403,
-      Type: 0,
-    },
-    {
-      Hash: "QmcAm5PngkrfB5Ajea5kKAWE5d6VSpKKTYaKZNULgAPXWv",
-      Name: "file.pdf",
-      Size: 1768403,
-      Type: 0,
-    },
-  ],
-};
+
 
 // ************************ Graph Utility ************************
 // NOTE: This section should be moved to utility file for cleaner code.
@@ -95,7 +50,7 @@ function debounce(func) {
 const transformIPFSResponse = (data) => {
   const entries = data?.Entries;
 
-  if (entries === null || entries.length === 0) {
+  if (!entries || entries.length === 0) {
     return { children: [] };
   }
 
@@ -111,7 +66,7 @@ const transformIPFSResponse = (data) => {
 function App() {
   // IPFS Response data
   /** @type {[IPFSResponse, React.Dispatch<IPFSResponse>]} */
-  // const [IPFSFiles, setIPFSFiles] = useState(null);
+   const [IPFSFiles, setIPFSFiles] = useState(null);
 
   // Keeps track of current dimensions for the graph for the d3's tree-graph.
   const [dimensions, setDimensions] = useState(null);
@@ -148,27 +103,27 @@ function App() {
   }, [updateDimensions]);
 
   // You can do something like this for getting data from the IPFS API.
-  // useEffect(() => {
-  //   function getIPFSFiles() {
-  //     fetch("http://127.0.0.1:5001/api/v0/files/ls", {
-  //       method: "POST",
-  //     })
-  //       .then((response) => response.json())
-  //       .then((response) => setIPFSFiles(response))
-  //       .catch(console.error);
-  //   }
-  //   getIPFSFiles();
-  // }, []);
+   useEffect(() => {
+     function getIPFSFiles() {
+       fetch("http://127.0.0.1:5001/api/v0/files/ls", {
+         method: "POST",
+       })
+         .then((response) => response.json())
+         .then((response) => setIPFSFiles(response))
+         .catch(console.error);
+     }
+     getIPFSFiles();
+   }, []);
 
   return (
     <div ref={containerRef} className="graph-container">
-      {dimensions && ( // Remove this if you want to see the graph without resize feature.
+      {dimensions && IPFSFiles &&( // Remove this if you want to see the graph without resize feature.
         <TreeMapGroup
           width={dimensions.width}
           height={dimensions.height}
           transform={transformIPFSResponse}
-          // data={IPFSFiles} // Use this if fetching data from node.
-          data={mockIPFSResponse}
+          data={IPFSFiles} // Use this if fetching data from node.
+          //data={mockIPFSResponse}
         />
       )}
     </div>

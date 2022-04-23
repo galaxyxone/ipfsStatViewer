@@ -99,6 +99,7 @@ function TreeMapGroup({
   const tree = useTreeNode(data, height, width, transform);
 
   return (
+    tree.data.children.length !== 0 && (
     <svg
       width={width + MARGIN.left + MARGIN.right}
       height={height + MARGIN.top + MARGIN.bottom}
@@ -134,7 +135,7 @@ function TreeMapGroup({
         </g>
       </g>
     </svg>
-  );
+  ));
 }
 
 TreeMapGroup.propTypes = {
