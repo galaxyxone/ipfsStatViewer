@@ -1,16 +1,27 @@
 # Statistical Data Viewer
+# This is NOT working right now- this is a prototype repo
 ## _A simple chrome extension for users to visualize the data stored on their local IPFS node_
+
+
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 
-IPFS Statistical Data Viewer is a tool that visualizes your IPFS Node. D3 is used to display what types of data are stored on a users node by using the file_type and file_size as the sources of data
+<img src="{https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB}" />
 
-- Stats(filename, filesize) are requested from users IPFS node via http api request
-- D3.js uses http request to build Treemap
+IPFS Statistical Data Viewer is a Chrome Extension that visualizes your IPFS Node with D3.js using the file_type and file_size as the sources of data
+
+- Stats(filename, filesize) are requested from users IPFS node via http api request- https://docs.ipfs.io/reference/http/api/
+- use this sample HTML code to generate HTML visualization using D3 and render it in chrome extension https://github.com/noryev/treemap_html
+- Finished Chrome extension looks like this- 
+<img width="1675" alt="Screen Shot 2022-04-14 at 10 01 02 PM" src="https://user-images.githubusercontent.com/30084404/163511354-2c178600-c9fd-4775-94c4-d9e9dfe33a45.png">
+
+
+
 
 ## Features
-- Static data visualization command to generate a graphic that is displayed to user
-- more to come later
+- Static data visualization command to generate a graphic that is displayed to user(extension/react pulls pinlist from user via http ipfs api)
+- FUTURE: Zoomable animations using D#
+- FUTURE: Canvas visualizations instead of SVG
 
 ## Tech
 
@@ -22,6 +33,12 @@ We are building a web-app to save and monitor your data via IPFS. Our program sc
 - [markdown-it] - Markdown parser done right. Fast and easy to extend.
 - [node.js] - evented I/O for the backend
 - [Express] - fast node.js network app framework [@tjholowaychuk]
+
+## Future Project Goals
+
+- Goal Treemap with Dynamic Interactivity(zoom into file/parent file boxes to see into child files
+![Screen Shot 2022-04-07 at 6 00 34 PM](https://user-images.githubusercontent.com/30084404/162333144-4d65b53f-0df5-49ec-bc11-40ea0bf78bc8.png)
+
 
 
 ## Installation
@@ -54,7 +71,8 @@ MIT
    [express]: <http://expressjs.com>
    [AngularJS]: <http://angularjs.org>
 
-![Screen Shot 2022-04-07 at 6 00 34 PM](https://user-images.githubusercontent.com/30084404/162333144-4d65b53f-0df5-49ec-bc11-40ea0bf78bc8.png)
+
+
 
 
 

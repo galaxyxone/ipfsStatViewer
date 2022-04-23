@@ -1,8 +1,15 @@
-Start with a simple react web app/plugin that a user can install within their browser
+# This repo is a collection of various notes and information dedicated to the development of IPFS-Stat-Viewer
+## Start with a simple React Chrome Extension that a user can install within their browser that monitors a users local IPFS Node.
 
-  then stat pulling data from users ipfs node via http api requests
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+### Things being built right now 
+
+- A transformation function to map data to D3's Treemap graph API.
+
+- A pluggable declarative TreeMapGroup component for React, which utilizes D3 for the graph. (File size correlated to box size) (Color corresponds with name of file) (.png is color x, .pdf is color y)
   
-  then display users ipfs data on grafana or something similar-
+- Plug everything into React-Chrome Extension- Cross your fingers it all works together once its built!
+--------------------------------------------------------------------------------------------------------------------------------------------------------
   
 ## Building an extension from scratch
 
@@ -51,24 +58,12 @@ Similarly if you want to try out pre-release versions at https://dev.webui.ipfs.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-export CIDS to a newline delimited file.
-  - use the following command "ipfs pin ls -q > pinlist.txt
-
-Then use D3.js to look at the pinlist and create a map from that-
-  - make sure that the filename can come as well maybe? then maybe file size too hopefully
- 
- 
- To use this chart outside of Observable, go to the @d3/treemap notebook, then copy-paste the entire function Treemap including the copyright notice into your application. You’ll also need to install (e.g., yarn add d3) and import (e.g., import * as d3 from "d3") D3; see D3’s README for details. To render a chart, pass Treemap an array of data and any desired options; it will return an SVG element that you can insert into the DOM.
- 
-import {Treemap} from "@d3/treemap"
-
-Then call Treemap(data, options) as shown above.
-
-To customize this chart, click the  Fork button at the top of the page to create your own copy of this notebook and save your changes. To run a cell, click the play button  in the top-right corner of the editor, or use Command-S (⌘S) or Shift-Enter (⇧↩).
-
-If you have any questions or suggestions, please sign-in to leave a comment. Click the cell menu  to the left of any cell, then click  Add comment.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+What is the best way to extract the file extensions of the data stored in a users IPFS node? 
 
+![Screen Shot 2022-04-22 at 1 21 42 AM](https://user-images.githubusercontent.com/30084404/164615565-8a90ebc7-e5c7-4466-baf6-807a29c1a8f9.png)
+![Screen Shot 2022-04-22 at 1 21 53 AM](https://user-images.githubusercontent.com/30084404/164615568-ef1bc88a-afab-4a46-a85b-67f2e07d0003.png)
 
 
