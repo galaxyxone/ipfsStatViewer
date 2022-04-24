@@ -1,4 +1,4 @@
-# This repo is a collection of various notes and information dedicated to the development of IPFS-Stat-Viewer
+# This repo is a collection of various notes and information dedicated to the development of the IPFS-Stat-Viewer project.
 ## Start with a simple React Chrome Extension that a user can install within their browser that monitors a users local IPFS Node.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
