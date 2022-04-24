@@ -50,6 +50,8 @@ const defaultTransform = (data) => data;
  * @param {string} filename
  * @description Returns a color based on the extension of the filename.
  */
+
+// NOTE: Definately add more file extensions
 function getBlockColorFromFilename(filename) {
   const extension = filename.split(".").at(-1).toLowerCase(); // Get the extension of the filename based on string after last period.
   switch (extension) {

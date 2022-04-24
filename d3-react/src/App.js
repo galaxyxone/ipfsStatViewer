@@ -55,7 +55,8 @@ const transformIPFSResponse = (data) => {
   }
 
   // We are given data for some node, therefore construct children for it from the given entries.
-  const children = entries.map((entry) => ({
+  const children = entries.filter((entry) => entry.Size !== 0)
+    .map((entry) => ({
     name: entry.Name,
     value: entry.Size,
   }));
