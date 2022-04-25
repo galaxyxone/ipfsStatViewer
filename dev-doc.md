@@ -70,6 +70,11 @@ What is the best way to extract the file extensions of the data stored in a user
 
 So after wrapping up the React and D3- querrying the IPFS network is resulting in a "size" of zero, which d3 intreprets as nothing(no box) so tomorrow when you wake up, its your job to figure out what a query is returning that! Hopefully its not that complicated!
 
-All updates are added 
+- All updates are added 
 
+### Date: April 24th 2022 4:38pm
+
+https://discuss.ipfs.io/t/solved-file-size-comparison-for-file-synchronization/4767 
+
+- This discussion shows a working file size 
 
