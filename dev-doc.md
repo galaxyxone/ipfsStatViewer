@@ -80,3 +80,11 @@ https://discuss.ipfs.io/t/solved-file-size-comparison-for-file-synchronization/4
 - Add the new findings- ipfs files stat /nameoffile
    
    command: "ipfs files stat /chortle.jpeg"
+   
+   
+   
+### Message to Discord about file-size return as a zero
+
+ Hey @lidel#4314 and @Elpranocotro#4529 so I have a different question about the returned file size from the files LS API. The returned string does not have a listed file size. Is it normal for the response to have a zero file size? After some digging I found that in cmd, if you use "ipfs files stat /filename" it returns a Size and CumulativeSize value for the CID's you specify.
+
+Would it be sufficient to say that I would need to use a separate command/shell to get the file size returned or could I just have something wrong in my apps code? 
