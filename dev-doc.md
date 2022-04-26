@@ -77,4 +77,6 @@ So after wrapping up the React and D3- querrying the IPFS network is resulting i
 https://discuss.ipfs.io/t/solved-file-size-comparison-for-file-synchronization/4767 
 
 - This discussion shows a working file size 
-
+- Add the new findings- ipfs files stat /nameoffile
+   
+   command: "ipfs files stat /chortle.jpeg"
