@@ -1,6 +1,6 @@
 # Statistical Data Viewer
 ### This is NOT working right now- this is a prototype repo
-## _A simple chrome extension for users to visualize the data stored on their local IPFS node_
+### _A simple chrome extension for users to visualize the data stored on their local IPFS node_
 
 
 
