@@ -16,7 +16,7 @@ IPFS Statistical Data Viewer is a Chrome Extension that visualizes your IPFS Nod
 - Finished Chrome extension looks like this- 
 <img width="1675" alt="Screen Shot 2022-04-14 at 10 01 02 PM" src="https://user-images.githubusercontent.com/30084404/163511354-2c178600-c9fd-4775-94c4-d9e9dfe33a45.png">
 
-
+Return from HTTP API
 {"Entries":[
    {"Name":"1600px-A_black_image.jpeg","Type":0,"Size":0,"Hash":""},
    {"Name":"InsomniaX-2.1.8.tgz","Type":0,"Size":0,"Hash":""},
