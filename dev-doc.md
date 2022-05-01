@@ -88,3 +88,15 @@ https://discuss.ipfs.io/t/solved-file-size-comparison-for-file-synchronization/4
  Hey @lidel#4314 and @Elpranocotro#4529 so I have a different question about the returned file size from the files LS API. The returned string does not have a listed file size. Is it normal for the response to have a zero file size? After some digging I found that in cmd, if you use "ipfs files stat /filename" it returns a Size and CumulativeSize value for the CID's you specify.
 
 Would it be sufficient to say that I would need to use a separate command/shell to get the file size returned or could I just have something wrong in my apps code? 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+## Sprint Done! 
+
+1. So the API should be working but for some reason its not- make sure to write a issue about it- 
+2. Add sprint into Chrome extension now- 
+
+### react_d3_treemap_v2.zip
+- For now I just solved the problem using a utility fetch handler-
+- Few updates to js and react
+- Fixed IPFS response
+
