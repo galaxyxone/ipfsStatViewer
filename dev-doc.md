@@ -89,7 +89,12 @@ https://discuss.ipfs.io/t/solved-file-size-comparison-for-file-synchronization/4
 
 Would it be sufficient to say that I would need to use a separate command/shell to get the file size returned or could I just have something wrong in my apps code? 
 
-So the API should be working but for some reason its not- make sure to write a issue about it- 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+## Sprint Done! 
+
+1. So the API should be working but for some reason its not- make sure to write a issue about it- 
+2. Add sprint into Chrome extension now- 
+
 ### react_d3_treemap_v2.zip
 - For now I just solved the problem using a utility fetch handler-
 - Few updates to js and react
