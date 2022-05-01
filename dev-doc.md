@@ -99,4 +99,19 @@ Would it be sufficient to say that I would need to use a separate command/shell 
 - For now I just solved the problem using a utility fetch handler-
 - Few updates to js and react
 - Fixed IPFS response
+# Functioning React App
+
+I have three files saved in my IPFS Repo
+<img width="1235" alt="Screen Shot 2022-05-01 at 12 12 31 AM" src="https://user-images.githubusercontent.com/30084404/166133229-07430341-4d4a-4ec0-bbf5-b5c9af22c3e0.png">
+
+Changes ASAP:
+
+1. Build into Chrome-Extension now
+2. List file_size of zero in a sub-menu maybe for informations sake
+3. Re-Factor EVERYTHING
+4. Index of what colors are what files- 
+5. Readouts of Sizes of Data-
+6. More information- more granularity
+
+
 
