@@ -107,6 +107,17 @@ I have three files saved in my IPFS Repo
 Changes ASAP:
 
 1. Build into Chrome-Extension now
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Milestones for Chrome Extension work:
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 2. List file_size of zero in a sub-menu maybe for informations sake
 3. Re-Factor EVERYTHING
 4. Index of what colors are what files- 
