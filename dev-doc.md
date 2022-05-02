@@ -118,11 +118,11 @@ Milestones for Chrome Extension work:
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-3. List file_size of zero in a sub-menu maybe for informations sake
-4. Re-Factor EVERYTHING
-5. Index of what colors are what files- 
-6. Readouts of Sizes of Data-
-7. More information- more granularity
+2. List file_size of zero in a sub-menu maybe for informations sake
+3. Re-Factor EVERYTHING
+4. Index of what colors are what files- 
+5. Readouts of Sizes of Data-
+6. More information- more granularity
 
 
 
