@@ -15,7 +15,10 @@ IPFS Statistical Data Viewer is a Chrome Extension that visualizes your IPFS Nod
 
 # Install Extension
 
-- Download the build file and load it as unpacked in Chrome with your IPFS Daemon running
+- Download the build file and load it as unpacked in Chrome Extension Manager
+- Open extension with your IPFS Daemon running
+- You should see something that looks like this depending on what you have pinned in IPFS
+
 
 
 Note: You need to make sure you have cross origin requests allowed. You can use the following ipfs cli-commands to enable cross origin access. 
