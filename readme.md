@@ -17,7 +17,7 @@ IPFS Statistical Data Viewer is a Chrome Extension that visualizes your IPFS Nod
 
 - Download the build file and load it as unpacked in Chrome Extension Manager
 - Open extension with your IPFS Daemon running
-- You should see something that looks like this depending on what you have pinned in IPFS
+
 
 
 
@@ -28,6 +28,10 @@ Note: You need to make sure you have cross origin requests allowed. You can use 
 ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '["*"]'
 ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods '["GET", "POST"]'
 ```
+
+<img width="1239" alt="Screen Shot 2022-05-03 at 6 00 04 PM" src="https://user-images.githubusercontent.com/30084404/166586795-3a046027-4c1f-4029-880a-116fb5101f11.png">
+
+- You should see something that looks like this depending on what you have pinned in IPFS
 
 ## Features
 - Static data visualization command to generate a graphic that is displayed to user(extension/react pulls pinlist from user via http ipfs api)
