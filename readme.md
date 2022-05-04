@@ -16,10 +16,7 @@
 - Download the build file and load it as unpacked in Chrome Extension Manager
 - Open extension with your IPFS Daemon running
 
-
-
-
-Note: You need to make sure you have cross origin requests allowed. You can use the following ipfs cli-commands to enable cross origin access. 
+Important Note: You need to make sure you have cross origin requests allowed. You can use the following ipfs cli-commands to enable cross origin access. 
 
 
 ```sh
