@@ -23,6 +23,7 @@ Important Note: You need to make sure you have cross origin requests allowed. Yo
 ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '["*"]'
 ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods '["GET", "POST"]'
 ```
+As as you have IPFS running, it should work without issue-
 
 <img width="1239" alt="Screen Shot 2022-05-03 at 6 00 04 PM" src="https://user-images.githubusercontent.com/30084404/166586795-3a046027-4c1f-4029-880a-116fb5101f11.png">
 
@@ -49,7 +50,6 @@ We are building a web-app to save and monitor your data via IPFS. Our program sc
 - Goal Treemap with Dynamic Interactivity(zoom into file/parent file boxes to see into child files
 ![Screen Shot 2022-04-07 at 6 00 34 PM](https://user-images.githubusercontent.com/30084404/162333144-4d65b53f-0df5-49ec-bc11-40ea0bf78bc8.png)
 
-As as you have IPFS running, it should work without issue-
 
 ## License
 
