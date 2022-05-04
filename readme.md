@@ -9,9 +9,9 @@
 
 <img src="{https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB}" />
 
-IPFS Statistical Data Viewer is a Chrome Extension that visualizes your IPFS Node with D3.js using the file_type and file_size as the sources of data to create a treemap
+## IPFS Statistical Data Viewer is a Chrome Extension that visualizes your IPFS Node with D3.js using the file_type and file_size as the sources of data to create a treemap
 
-### Its not the most effecient program but were working to make it better! (submit issue report)
+### Its not the most effecient program but were working to make it better! (Check devdoc for more details)
 
 # Install Extension
 
