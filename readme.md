@@ -1,8 +1,6 @@
 # Statistical Data Viewer
-### This is SEMI working right now- this is a prototype repo
-### _A simple chrome extension for users to visualize the data stored on their local IPFS node_
-### Only the REACT and d3.js work so far, next is building it into chrome extension
 
+### _A simple chrome extension for users to visualize the data stored on their local IPFS node_
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.io/)
