@@ -13,7 +13,7 @@
 
 ### Its not the most effecient program but were working to make it better! (Check devdoc for more details)
 
-# Install Extension
+# Install Extension(use at your own risk)
 
 - Download the build file and load it as unpacked in Chrome Extension Manager
 - Open extension with your IPFS Daemon running
