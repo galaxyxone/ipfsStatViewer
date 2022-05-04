@@ -49,22 +49,7 @@ We are building a web-app to save and monitor your data via IPFS. Our program sc
 - Goal Treemap with Dynamic Interactivity(zoom into file/parent file boxes to see into child files
 ![Screen Shot 2022-04-07 at 6 00 34 PM](https://user-images.githubusercontent.com/30084404/162333144-4d65b53f-0df5-49ec-bc11-40ea0bf78bc8.png)
 
-
-
-## Installation
-
-Install the dependencies and devDependencies and start the server.
-
-```sh
-npm install
-```
-
-For production environments...
-
-```sh
-Coming soon
-```
-
+As as you have IPFS running, it should work without issue-
 
 ## License
 
