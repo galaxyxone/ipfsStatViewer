@@ -1,4 +1,6 @@
-# Statistical Data Viewer
+# Statistical Data Viewer Optimization Branch
+
+This is a repo to perform optimizations without screwing up the original production build-
 
 ### _A simple chrome extension for users to visualize the data stored on their local IPFS node_
 
