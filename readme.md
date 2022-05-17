@@ -13,7 +13,7 @@ This is a repo to perform optimizations without screwing up the original product
 
 ### Its not the most effecient program but were working to make it better! (Check devdoc for more details)
 
-# Install Extension(use at your own risk)
+# Install Extension
 
 - Download the build file and load it as unpacked in Chrome Extension Manager
 - Open extension with your IPFS Daemon running
