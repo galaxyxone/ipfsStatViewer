@@ -33,8 +33,6 @@ As as you have IPFS running, it should work without issue-
 
 ## Features
 - Static data visualization command to generate a graphic that is displayed to user(extension/react pulls pinlist from user via http ipfs api)
-- FUTURE: Zoomable animations using D#
-- FUTURE: Canvas visualizations instead of SVG
 
 ## Tech
 
@@ -46,6 +44,11 @@ We are building a web-app to save and monitor your data via IPFS. Our program sc
 - [markdown-it] - Markdown parser done right. Fast and easy to extend.
 - [node.js] - evented I/O for the backend
 - [Express] - fast node.js network app framework [@tjholowaychuk]
+
+## Future 
+
+- FUTURE: Zoomable animations using D#
+- FUTURE: Canvas visualizations instead of SVG
 
 
 ## License
