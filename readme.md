@@ -1,6 +1,4 @@
-# Statistical Data Viewer Optimization Branch
-
-This is a repo to perform optimizations without screwing up the original production build-
+# Statistical Data Viewer 
 
 ### _A simple chrome extension for users to visualize the data stored on their local IPFS node_
 
@@ -11,8 +9,6 @@ This is a repo to perform optimizations without screwing up the original product
 
 ## IPFS Statistical Data Viewer is a Chrome Extension that visualizes your IPFS Node with D3.js using the file_type and file_size as the sources of data to create a treemap
 
-
-### Its not the most effecient program but were working to make it better! (Check devdoc for more details)
 
 # Install Extension
 
