@@ -5,7 +5,8 @@
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.io/)
 
-Add link to google chrome extension when it has passed- (Still Waiting on Review to Pass!)
+### Download in the Google Chrome Store 
+https://chrome.google.com/webstore/detail/ipfs-stat-viewer/leoogniilogpecgamlbafoajfcaoddja
 
 
 
