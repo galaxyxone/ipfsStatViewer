@@ -36,8 +36,7 @@ As as you have IPFS running, it should work without issue-
 
 ## Tech
 
-
-We are building a web-app to save and monitor your data via IPFS. Our program scans your IPFS cache folder to show a detailed summary of what is stored on your IPFS node. The data will be visualized using organized colorful graphics similar to apps like Windirstat, Spacesniffer, or Disk Recon. Each file type (MP3, ZIP, EXE, JPEG, etc.) is assigned a color in a collage of rectangles that are sized depending on how much space that file type is using. 
+ A users IPFS data is visualized using organized colorful graphics similar to apps like Windirstat, Spacesniffer, or Disk Recon. Each file type (MP3, ZIP, EXE, JPEG, etc.) is assigned a color in a collage of rectangles that are sized depending on how much space that file type is using. Treemap function provided by D3.js.  
 
 - [IPFS] - Peer-to-peer hypermedia protocol
 - [D3] - A Javascript library for visualizing data using web standards-
