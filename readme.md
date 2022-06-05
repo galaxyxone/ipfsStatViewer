@@ -4,16 +4,17 @@
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.io/)
-
-[Download in the Google Chrome Store](https://chrome.google.com/webstore/detail/ipfs-stat-viewer/leoogniilogpecgamlbafoajfcaoddja)
-
-
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/leoogniilogpecgamlbafoajfcaoddja.svg)](https://chrome.google.com/webstore/detail/ipfs-stat-viewer/leoogniilogpecgamlbafoajfcaoddja)
 
 ## IPFS Statistical Data Viewer is a Chrome Extension that visualizes your IPFS Node with D3.js using the file_type and file_size as the sources of data to create a treemap
 
 
 # Install Extension
 
+[Download in the Google Chrome Store](https://chrome.google.com/webstore/detail/ipfs-stat-viewer/leoogniilogpecgamlbafoajfcaoddja)
+
+If you want to install from source via this repo, do the following-
 
 - Download the build file and load it as unpacked in Chrome Extension Manager
 - Open extension with your IPFS Daemon running
@@ -32,7 +33,8 @@ As as you have IPFS running, it should work without issue-
 - You should see something that looks like this depending on what you have pinned in IPFS
 
 ## Features
-- Static data visualization command to generate a graphic that is displayed to user(extension/react pulls pinlist from user via http ipfs api)
+- Colors of boxes in treemap correlate to a file type- supporting music, picture, video, extension types and many more. 
+- Box size correlates to amount of data in the file 
 
 ## Tech
 
@@ -48,6 +50,8 @@ As as you have IPFS running, it should work without issue-
 
 - FUTURE: Zoomable animations using D#
 - FUTURE: Canvas visualizations instead of SVG
+- FUTURE: More supported file extensions
+- FUTURE: Pie-chart added visualization with file extensions pinned
 
 
 ## License
