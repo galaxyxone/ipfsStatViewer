@@ -48,6 +48,7 @@ As as you have IPFS running, it should work without issue-
 
 ## Future 
 
+- FUTURE: Add more visualizations (pie chart and more)
 - FUTURE: Zoomable animations using D#
 - FUTURE: Canvas visualizations instead of SVG
 - FUTURE: More supported file extensions
