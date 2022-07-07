@@ -38,7 +38,7 @@ As as you have IPFS running, it should work without issue-
 
 ## Tech
 
- A users IPFS data is visualized using organized colorful graphics similar to apps like Windirstat, Spacesniffer, or Disk Recon. Each file type (MP3, ZIP, EXE, JPEG, etc.) is assigned a color in a collage of rectangles that are sized depending on how much space that file type is using. Treemap function provided by D3.js.  
+ A users IPFS data is visualized using organized colorful graphics similar to apps like Windirstat, or Disk Recon. Each file type (MP3, ZIP, EXE, JPEG, etc.) is assigned a color in a collage of rectangles that are sized depending on how much space that file type is using. Treemap function provided by D3.js.  
 
 - [IPFS] - Peer-to-peer hypermedia protocol
 - [D3] - A Javascript library for visualizing data using web standards-
