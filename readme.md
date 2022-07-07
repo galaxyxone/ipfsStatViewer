@@ -33,12 +33,12 @@ As as you have IPFS running, it should work without issue-
 - You should see something that looks like this depending on what you have pinned in IPFS
 
 ## Features
-- Colors of boxes in treemap correlate to a file type- supporting music, picture, video, extension types and many more. 
+- Colors of boxes in treemap correlate to a file type- supporting music, photos, video, and more. 
 - Box size correlates to amount of data in the file 
 
 ## Tech
 
- A users IPFS data is visualized using organized colorful graphics similar to apps like Windirstat, Spacesniffer, or Disk Recon. Each file type (MP3, ZIP, EXE, JPEG, etc.) is assigned a color in a collage of rectangles that are sized depending on how much space that file type is using. Treemap function provided by D3.js.  
+ A users IPFS data is visualized using organized colorful graphics similar to apps like Windirstat, or Disk Recon. Each file type (MP3, ZIP, EXE, JPEG, etc.) is assigned a color in a collage of rectangles that are sized depending on how much space that file type is using. Treemap function provided by D3.js.  
 
 - [IPFS] - Peer-to-peer hypermedia protocol
 - [D3] - A Javascript library for visualizing data using web standards-
