@@ -33,7 +33,7 @@ As as you have IPFS running, it should work without issue-
 - You should see something that looks like this depending on what you have pinned in IPFS
 
 ## Features
-- Colors of boxes in treemap correlate to a file type- supporting music, picture, video, extension types and many more. 
+- Colors of boxes in treemap correlate to a file type- supporting music, photos, video, and more. 
 - Box size correlates to amount of data in the file 
 
 ## Tech
