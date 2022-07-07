@@ -2,4 +2,4 @@
 
 ## High-Value Information Points
 
-## High-Value Information Visualazations
+## High-Value Information Visualizations
