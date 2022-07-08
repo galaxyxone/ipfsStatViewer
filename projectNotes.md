@@ -6,7 +6,7 @@ Right now the filename is within each box within the treemap. The problem is whe
 - Implement UI improvements
 
 ### Firefox Integration
-
+- isues created and added into project
 ### Chrome Integration
 
 - Fix icons 
