@@ -14,12 +14,14 @@
 
 [Download in the Google Chrome Store](https://chrome.google.com/webstore/detail/ipfs-stat-viewer/leoogniilogpecgamlbafoajfcaoddja)
 
+Important Note: You need to make sure you have cross origin requests allowed. You can use the following ipfs cli-commands to enable cross origin access. 
+
+If 
 If you want to install from source via this repo, do the following-
 
 - Download the build file and load it as unpacked in Chrome Extension Manager
 - Open extension with your IPFS Daemon running
 
-Important Note: You need to make sure you have cross origin requests allowed. You can use the following ipfs cli-commands to enable cross origin access. 
 
 
 ```sh
