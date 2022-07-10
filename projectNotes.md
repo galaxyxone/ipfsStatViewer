@@ -11,6 +11,10 @@ Right now the filename is within each box within the treemap. The problem is whe
 
 ^UI State currently^ 
 
+- Finilize validation and errors and update button spacing. 
+
+- Finilise logos and emblems ASAP
+
 ### Firefox Integration
 - isues created and added into project
 ### Chrome Integration
