@@ -5,18 +5,6 @@ Right now the filename is within each box within the treemap. The problem is whe
 - Explore the best ways to show the name of a file within a treemap- look at other software
 - Implement UI improvements
 
-## UI Updates 
-
-![image](https://user-images.githubusercontent.com/30084404/178163901-f092e921-af07-4e0b-b38c-00bb81bd68c7.png)
-![image (1)](https://user-images.githubusercontent.com/30084404/178164058-080762c8-f859-4ccf-967f-9766382e7ecf.png)
-
-
-^UI State currently^ 
-
-- Finilize validation and errors and update button spacing. 
-
-- Finilise logos and emblems ASAP
-
 ### Firefox Integration
 - isues created and added into project
 ### Chrome Integration
