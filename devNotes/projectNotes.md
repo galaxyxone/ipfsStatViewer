@@ -8,7 +8,7 @@ Right now the filename is within each box within the treemap. The problem is whe
 ### Firefox Integration
 - isues created and added into project
 ### Chrome Integration
-
+- fix emblem omg 
 - Fix icons 
 ## High-Value Information Points
 
