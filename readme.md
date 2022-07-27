@@ -1,4 +1,4 @@
-# Statistical Data Viewer 
+# ipfsStatViewer(Statistical Viewer)
 
 ### _A simple chrome extension for users to visualize the data stored on their local IPFS node_
 
