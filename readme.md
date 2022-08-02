@@ -14,6 +14,8 @@
 
 [Download in the Google Chrome Store](https://chrome.google.com/webstore/detail/ipfs-stat-viewer/leoogniilogpecgamlbafoajfcaoddja)
 
+(ignore) Add updated information about Brave Browser Integration
+
 Important Note: You need to make sure you have cross origin requests allowed. You can use the following ipfs cli-commands to enable cross origin access. 
 
 If 
