@@ -14,6 +14,8 @@
 
 [Download in the Google Chrome Store](https://chrome.google.com/webstore/detail/ipfs-stat-viewer/leoogniilogpecgamlbafoajfcaoddja)
 
+(ignore) Add updated information about Brave Browser Integration
+
 Important Note: You need to make sure you have cross origin requests allowed. You can use the following ipfs cli-commands to enable cross origin access. 
 
 If 
@@ -51,7 +53,6 @@ As as you have IPFS running, it should work without issue-
 ## Future 
 
 - FUTURE: Add more visualizations (pie chart and more)
-- FUTURE: Zoomable animations using D#
 - FUTURE: Canvas visualizations instead of SVG
 - FUTURE: More supported file extensions
 - FUTURE: Pie-chart added visualization with file extensions pinned
@@ -72,5 +73,4 @@ MIT
    [express]: <http://expressjs.com>
    [AngularJS]: <http://angularjs.org>
 
-Hopefully git branch problem was resolvedx
 
