@@ -40,9 +40,19 @@ As as you have IPFS running, it should work without issue-
 - Colors of boxes in treemap correlate to a file type- supporting music, photos, video, and more. 
 - Box size correlates to amount of data in the file 
 
+
+### In specific cases, this command is needed to get the treemap to function correctly- 
+
+```
+ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '["http://webui.ipfs.io.ipns.localhost:48084", "http://localhost:3000", "http://127.0.0.1:5001", "https://webui.ipfs.io", "chrome-extension://leoogniilogpecgamlbafoajfcaoddja"]'
+```
+
+## Working on currently 
 ## Tech
 
  A users IPFS data is visualized using organized colorful graphics similar to apps like Windirstat, or Disk Recon. Each file type (MP3, ZIP, EXE, JPEG, etc.) is assigned a color in a collage of rectangles that are sized depending on how much space that file type is using. Treemap function provided by D3.js.  
+ 
+ 
 
 - [IPFS] - Peer-to-peer hypermedia protocol
 - [D3] - A Javascript library for visualizing data using web standards-
@@ -56,6 +66,8 @@ As as you have IPFS running, it should work without issue-
 - FUTURE: Canvas visualizations instead of SVG
 - FUTURE: More supported file extensions
 - FUTURE: Pie-chart added visualization with file extensions pinned
+
+
 
 
 ## License
