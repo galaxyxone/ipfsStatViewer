@@ -64,8 +64,6 @@ ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '["http://webui.i
 
 - FUTURE: Add more visualizations (pie chart and more)
 - FUTURE: Canvas visualizations instead of SVG
-- FUTURE: More supported file extensions
-- FUTURE: Pie-chart added visualization with file extensions pinned
 
 
 
@@ -84,5 +82,4 @@ MIT
    [jQuery]: <http://jquery.com>
    [express]: <http://expressjs.com>
    [AngularJS]: <http://angularjs.org>
-
 
