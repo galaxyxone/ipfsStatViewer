@@ -62,8 +62,8 @@ ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '["http://webui.i
 
 ## Future 
 
-- FUTURE: Add more visualizations (pie chart and more)
-- FUTURE: Canvas visualizations instead of SVG
+- Working on now: Add more visualizations (pie chart and more)
+- Improved CORS Allow prompting
 
 
 
