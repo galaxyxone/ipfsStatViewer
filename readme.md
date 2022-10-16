@@ -47,7 +47,9 @@ As as you have IPFS running, it should work without issue-
 ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '["http://webui.ipfs.io.ipns.localhost:48084", "http://localhost:3000", "http://127.0.0.1:5001", "https://webui.ipfs.io", "chrome-extension://leoogniilogpecgamlbafoajfcaoddja"]'
 ```
 
-## Working on currently 
+## Working on currently
+- Improved UI
+
 ## Tech
 
  A users IPFS data is visualized using organized colorful graphics similar to apps like Windirstat, or Disk Recon. Each file type (MP3, ZIP, EXE, JPEG, etc.) is assigned a color in a collage of rectangles that are sized depending on how much space that file type is using. Treemap function provided by D3.js.  
@@ -63,7 +65,7 @@ ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '["http://webui.i
 ## Future 
 
 - Working on now: Add more visualizations (pie chart and more)
-- Improved CORS Allow prompting
+- Improved CORS Allow Prompt- pop-up that asks user to enable/update cors
 
 
 
