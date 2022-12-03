@@ -1,0 +1,5 @@
+.graph-container {
+  /* Using viewport width and height so that the graph doesn't leak out of it. */
+  width: 100vw;
+  height: 100vh;
+}
