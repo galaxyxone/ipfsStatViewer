@@ -6,10 +6,10 @@ Right now the filename is within each box within the treemap. The problem is whe
 - Implement UI improvements
 
 ### Firefox Integration
-- isues created and added into project
+
 ### Chrome Integration
-- fix emblem omg 
-- Fix icons 
+- Fix File Titles
+- Update Firefox Extension
 ## High-Value Information Points
 
 ## High-Value Information Visualizations
