@@ -8,7 +8,7 @@ Right now the filename is within each box within the treemap. The problem is whe
 - Implement UI improvements
 - Make the development in this repo easier!
 
-Dynamic Window resizing with D3.js and dynamic popup.html(Chrome)
+Dynamic Window resizing with D3.js and dynamic popup.html(Chrome) [here](https://observablehq.com/@d3/animated-treemap)
 
 ### Firefox Integration
 
