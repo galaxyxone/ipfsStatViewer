@@ -177,7 +177,7 @@ function App() {
 
   return (
     <div ref={containerRef} className="graph-container">
-      {dimensions && ( // Remove this if you want to see the graph without resize feature.
+      {dimensions && ( // Remove this if you want to see the graph without resize feature. Add a title resize addition here
         <TreeMapGroup
           width={dimensions.width}
           height={dimensions.height}
