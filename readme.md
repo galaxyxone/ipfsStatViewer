@@ -1,14 +1,10 @@
-# ipfsStatViewer(Statistical Viewer)
-
-### _A simple chrome extension for users to visualize the data stored on their local IPFS node_
+# ipfsStatViewer
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.io/)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/leoogniilogpecgamlbafoajfcaoddja.svg)](https://chrome.google.com/webstore/detail/ipfs-stat-viewer/leoogniilogpecgamlbafoajfcaoddja)
 
-
-## IPFS Statistical Data Viewer is a Chrome Extension that visualizes your IPFS Node with D3.js using the file_type and file_size as the sources of data to create a treemap
-
+### _A simple chrome extension for users to that visualizes your local IPFS Node with D3.js using the file_type and file_size as the sources of data to create a treemap_
 
 # Install Extension
 
